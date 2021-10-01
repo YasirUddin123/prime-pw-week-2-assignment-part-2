@@ -29,7 +29,7 @@ if (number >= 2) {
 // We create a variable called 'name' and we assign it a value called 'Dane'.
 // Then we check to see if 'Dane' is exactly equal to 'Mary'.
 // If 'Dane' and 'Mary' are exactly equal, then we console log 'Hi, Mary!'.
-//Otherwise, we console log 'How do you do?'
+//Otherwise, we console log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a variable called 'secret', but we do not define 'secret'.
+// We create a variable called 'secret', but 'secret' is undefined.
 // We create a variable called 'code' and assign it a value with the number 123.
-// We check to see if the value of 'code' is exactly equal to 123. If true, we assign the value 'super' to the variable 'secret'. Then we take the value of 'code', multiply it by 2, and assign this multiplication to 'code'.
-// We also check to see if the value of 'code' is greater than 250. If this is true, we assign the value 'duper' to the variable 'secret'. Then we console log 'secret'.
+// We check to see if the value of 'code' is exactly equal to 123. If true, we assign the value 'super' to the variable 'secret'. Then we take the value of 'code', multiply it by 2, and assign this multiplication answer to 'code'.
+// We also check to see if the value of 'code' is greater than 250. If this is true, we assign the value 'duper' to the variable 'secret'.
+// Then we console log 'secret'.
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create a variable called 'isStudent' and assign it the boolean value true. We create a variable called 'age' and assign it the number 34. And we create the variable called 'zip' and assign it the number 55407.
-// We check four conditions. First, we check if both the variable 'isStudent' is true and if the variable 'zip' is greater than 8000. If both evaluate to true, we console log `You're a student on the West Coast!`.
-// Otherwise, we then check to see if either the variable 'isStudent' is false or the variable 'age' is less than 30. If either of these are true, we console log 'What are your hobbies?'.
-//Otherwise, we check if the variable 'isStudent' is true. If that is true, then we console log 'Welcome to Prime!'.
+// We create a variable called 'isStudent' and assign it the boolean value true.
+// We create a variable called 'age' and assign it the number 34.
+// We create the variable called 'zip' and assign it the number 55407.
+// We check four conditions.
+// First, we check if the variable 'isStudent' is true and if the variable 'zip' is greater than 80000. If both of these conditions are true, we console log `You're a student on the West Coast!`.
+// Otherwise, we check to see if either the variable 'isStudent' is false or the variable 'age' is less than 30. If either of these conditions is true, we console log 'What are your hobbies?'.
+// Otherwise, we check to see if the variable 'isStudent' is true. If this condition is true, then we console log 'Welcome to Prime!'.
 // But if none of these conditions are true, then we console log 'How about the weather?'.
 
 //CODE
@@ -131,18 +135,21 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
+
 //FIX - colorOne is not set to 'blue'.
 //colorOne should be set to 'blue'.
-let colorTwo = 'blue';
+let colorOne = 'red';
 //FIX - colorTwo is not set to 'red'.
-//colorOne should be set to 'red'.
+//colorTwo should be set to 'red'.
+let colorTwo = 'blue';
 let mix = true;
 
+
+//FIX - ColorTwo is not included in the if statement's code block and needs to be set to 'purple'.
+//insert ColorTwo on line 152 and set to 'purple'.
 if (mix === true) {
   colorOne = 'purple';
-  //FIX - ColorTwo is not included and needs to be set to 'purple'.
-  //insert ColorTwo here and set to 'purple'.
+
 
 }
 */
@@ -153,15 +160,18 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
 //FIX - we are setting time as a constant, not a variable.
 //We should use the word 'let' instead of 'const' to create the 'time' variable.
+const time = 4;
+//FIX - we are not using the correct compound conditional.
+// We should use && instead of ||.
 if (temp > 39 || time >= 4) {
-//FIX - we are not using the correct compound conditional
-// We should use && instead of ||
   console.log('throw away the food!');
 }
 */
+
+
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
@@ -169,19 +179,20 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-const minAge = 21;
 //FIX - we are setting minAge as a constant, not a variable.
-//We should use the word 'let' instead of 'const' to create the 'minAge' variable
+//We should use the word 'let' instead of 'const' to create the 'minAge' variable.
+const minAge = 21;
 
+//FIX - this is saying if minAge is less than or equal to age. Though correct, we can be more clear.
+//Better to use age >= minAge in our conditional.
 if(minAge <= age) {
-//FIX - this is saying if minAge is less than or equal to minAge. This is not what we want.
-//Better to use age >= minAge in our conditional
+//FIX - the console log 'no entry' is not the message we want to log.
+//Update the console log with 'enter'.
   console.log('no entry');
-//FIX - this is not relevant on what's asked
-//Update the console log to say 'enter' assuming the first FIX is made.
+  //FIX - We don't need the else statement since we made the two recent fixes earlier. Even if we included this else statement, this would be logged if age was less than or equal to minAge. This would be incorrect because this would console log 'enter' following the wrong condition.
+  // Delete this else statement
 } else {
   console.log('enter');
-//FIX - We don't need this if we made the two fixes earlier.
-// Delete this else statement
+
 }
 */
