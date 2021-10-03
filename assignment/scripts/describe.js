@@ -28,8 +28,9 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a variable called 'name' and we assign it a value called 'Dane'.
 // Then we check to see if 'Dane' is exactly equal to 'Mary'.
-// If 'Dane' and 'Mary' are exactly equal, then we console log 'Hi, Mary!'.
-//Otherwise, we console log 'How do you do?'.
+// If 'Dane' and 'Mary' are exactly equal, we would console log 'Hi, Mary!'.
+// Otherwise, we would console log 'How do you do?'.
+// When we actually run this program, we end up console logging 'How do you do?'.
 
 //CODE
 /*
@@ -49,7 +50,8 @@ if (name === 'Mary') {
 // We create a variable called 'code' and assign it a value with the number 123.
 // We check to see if the value of 'code' is exactly equal to 123. If true, we assign the value 'super' to the variable 'secret'. Then we take the value of 'code', multiply it by 2, and assign this multiplication answer to 'code'.
 // We also check to see if the value of 'code' is greater than 250. If this is true, we assign the value 'duper' to the variable 'secret'.
-// Then we console log 'secret'.
+// Then we would console log 'secret'.
+// When we actually run this program, we end up console logging 'secret' which gives the message 'super'.
 
 //CODE
 /*
@@ -75,10 +77,11 @@ console.log(secret)
 // We create a variable called 'age' and assign it the number 34.
 // We create the variable called 'zip' and assign it the number 55407.
 // We check four conditions.
-// First, we check if the variable 'isStudent' is true and if the variable 'zip' is greater than 80000. If both of these conditions are true, we console log `You're a student on the West Coast!`.
-// Otherwise, we check to see if either the variable 'isStudent' is false or the variable 'age' is less than 30. If either of these conditions is true, we console log 'What are your hobbies?'.
-// Otherwise, we check to see if the variable 'isStudent' is true. If this condition is true, then we console log 'Welcome to Prime!'.
-// But if none of these conditions are true, then we console log 'How about the weather?'.
+// First, we check if the variable 'isStudent' is true and if the variable 'zip' is greater than 80000. If both of these conditions are true, we would console log `You're a student on the West Coast!`.
+// Otherwise, we check to see if either the variable 'isStudent' is false or the variable 'age' is less than 30. If either of these conditions is true, we would console log 'What are your hobbies?'.
+// Otherwise, we check to see if the variable 'isStudent' is true. If this condition is true, then we would console log 'Welcome to Prime!'.
+// But if none of these conditions are true, then we would console log 'How about the weather?'.
+// When we actually run this program, we end up console logging 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -152,6 +155,7 @@ if (mix === true) {
 
 
 }
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
