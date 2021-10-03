@@ -149,7 +149,7 @@ let mix = true;
 
 
 //FIX - ColorTwo is not included in the if statement's code block and needs to be set to 'purple'.
-//insert ColorTwo on line 152 and set to 'purple'.
+//insert ColorTwo on line 155 and set to 'purple'.
 if (mix === true) {
   colorOne = 'purple';
 
